@@ -1,0 +1,11 @@
+logs/*
+.svn
+.svn/*
+*.DS_Store
+*.iml
+.idea
+.idea/*
+.classpath
+.project
+.settings
+.settings/*
