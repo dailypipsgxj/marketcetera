@@ -21,12 +21,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Represents a bid event for a convertible Bond.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: ConvertibleBondBidEventImpl.java 16598 2013-06-25 13:27:58Z colin $
- * @since $Release$
+ * @version $Id: ConvertibleBondBidEventImpl.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlRootElement(name="convertibleBondBid")
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondBidEventImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondBidEventImpl
         extends AbstractQuoteEventImpl
         implements ConvertibleBondEvent, BidEvent

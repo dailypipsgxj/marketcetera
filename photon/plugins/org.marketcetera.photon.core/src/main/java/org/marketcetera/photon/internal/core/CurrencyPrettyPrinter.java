@@ -16,7 +16,7 @@ import org.marketcetera.util.misc.ClassVersion;
  * Pretty prints {@link Currency} objects for the UI.
  *
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: CurrencyPrettyPrinter.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyPrettyPrinter
         extends InstrumentPrettyPrinter<Currency>
 {

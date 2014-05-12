@@ -8,10 +8,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Indicates that a symbol could not be resolved to an <code>Instrument</code>.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: UnresolvableSymbol.java 16604 2013-06-26 14:49:42Z colin $
- * @since $Release$
+ * @version $Id: UnresolvableSymbol.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id: UnresolvableSymbol.java 16604 2013-06-26 14:49:42Z colin $")
+@ClassVersion("$Id: UnresolvableSymbol.java 16901 2014-05-11 16:14:11Z colin $")
 public class UnresolvableSymbol
         extends RuntimeException
 {

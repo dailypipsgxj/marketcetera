@@ -13,7 +13,7 @@ import quickfix.field.*;
  * Adds the appropriate fields for a currency instrument to a FIX Message.
  *
  */
-@ClassVersion("$Id: CurrencyToMessage.java 16494 2013-03-09 04:44:17Z colin $")
+@ClassVersion("$Id: CurrencyToMessage.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyToMessage extends InstrumentToMessage<Currency>{
 
     /**

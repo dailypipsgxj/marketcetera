@@ -17,8 +17,8 @@ import org.marketcetera.marketdata.core.request.MarketDataRequestAtom;
  * Provides a test market data provider.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MockMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class MockMarketDataProvider
         extends AbstractMarketDataProvider

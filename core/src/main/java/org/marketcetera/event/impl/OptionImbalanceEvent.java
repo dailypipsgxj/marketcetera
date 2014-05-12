@@ -23,13 +23,13 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides an <code>ImbalanceEvent</code> implementation for an <code>Option</code> instrument.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: OptionImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="optionImbalance")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: OptionImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $")
 public class OptionImbalanceEvent
         extends AbstractImbalanceEvent
         implements HasOption, OptionEvent

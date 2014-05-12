@@ -26,8 +26,8 @@ import org.marketcetera.util.test.EqualityAssert;
  * Tests broker algorithm classes.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: BrokerAlgoTest.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class BrokerAlgoTest
 {

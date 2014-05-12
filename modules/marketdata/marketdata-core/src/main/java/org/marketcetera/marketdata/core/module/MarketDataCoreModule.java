@@ -29,10 +29,10 @@ import com.google.common.collect.Maps;
  * </table>
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketDataCoreModule.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataCoreModule.java 16901 2014-05-11 16:14:11Z colin $")
 public class MarketDataCoreModule
         extends Module
         implements DataEmitter
@@ -115,10 +115,10 @@ public class MarketDataCoreModule
      * Represents a request forwarded to the market data manager.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataCoreModule.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataCoreModule.java 16901 2014-05-11 16:14:11Z colin $")
     private static class InternalRequest
             implements ISubscriber
     {

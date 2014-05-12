@@ -19,10 +19,10 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  * Provides a process-based application in which to run Marketcetera components.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ApplicationContainer.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ApplicationContainer.java 16901 2014-05-11 16:14:11Z colin $")
 public class ApplicationContainer
         extends ApplicationBase
         implements ApplicationInfoProvider, Lifecycle

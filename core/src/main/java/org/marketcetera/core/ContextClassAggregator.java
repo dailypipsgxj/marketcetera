@@ -14,10 +14,10 @@ import com.google.common.collect.Lists;
  * Provides common behavior for <code>ContextClassProvider</code> instances.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ContextClassAggregator.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ContextClassAggregator.java 16901 2014-05-11 16:14:11Z colin $")
 public class ContextClassAggregator
         implements ContextClassProvider
 {

@@ -11,8 +11,8 @@ import org.apache.commons.lang.Validate;
  * Provides an auto-closeable implementation of {@link ReadWriteLock}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: CloseableLock.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class CloseableLock
         implements Closeable

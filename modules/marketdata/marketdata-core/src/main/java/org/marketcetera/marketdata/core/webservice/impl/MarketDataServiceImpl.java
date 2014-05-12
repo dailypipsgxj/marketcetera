@@ -53,11 +53,11 @@ import com.google.common.collect.Maps;
  * Provides Market Data Nexus services.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketDataServiceImpl.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataServiceImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class MarketDataServiceImpl
         extends ServiceBaseImpl<Object>
         implements MarketDataService,Lifecycle,MarketDataServiceAdapter
@@ -639,11 +639,11 @@ public class MarketDataServiceImpl
      * Manages a request subscription.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataServiceImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
     @ThreadSafe
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataServiceImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private class ServiceSubscriber
             implements ISubscriber
     {
@@ -777,10 +777,10 @@ public class MarketDataServiceImpl
      * Retires market data subscriptions that have not been checked in a while.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataServiceImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataServiceImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private class Reaper
             implements Runnable
     {

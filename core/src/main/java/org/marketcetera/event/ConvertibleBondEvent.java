@@ -12,10 +12,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Indicates that the implementing class represents a convertible bond event.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: ConvertibleSecurityEvent.java 16598 2013-06-25 13:27:58Z colin $
- * @since $Release$
+ * @version $Id: ConvertibleBondEvent.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondEvent.java 16901 2014-05-11 16:14:11Z colin $")
 public interface ConvertibleBondEvent
         extends HasConvertibleBond,Event
 {

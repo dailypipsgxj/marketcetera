@@ -19,13 +19,13 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides an <code>ImbalanceEvent</code> implementation for a <code>Currency</code> instrument.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: CurrencyImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="currencyImbalance")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: CurrencyImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyImbalanceEvent
         extends AbstractImbalanceEvent
         implements CurrencyEvent

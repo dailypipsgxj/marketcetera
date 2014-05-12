@@ -11,8 +11,8 @@ import javax.xml.bind.annotation.adapters.XmlAdapter;
  * Provides an adapter to translate Map values to and from XML.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MapAdapter.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class MapAdapter
         extends XmlAdapter<MapElements[],Map<String,String>>

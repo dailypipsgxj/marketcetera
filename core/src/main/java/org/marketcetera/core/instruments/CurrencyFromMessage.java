@@ -15,10 +15,10 @@ import quickfix.field.Symbol;
  * Extracts <code>Currency</code> from a <code>Message</code>.
  *
  * @author <a href="mailto:richard.obrien@qmscapital.com">Richard O'Brien</a>
- * @version $Id: CurrencyFromMessage.java 16688 2013-09-19 03:18:45Z colin $
- * @since $Release$
+ * @version $Id: CurrencyFromMessage.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id: CurrencyFromMessage.java 16688 2013-09-19 03:18:45Z colin $")
+@ClassVersion("$Id: CurrencyFromMessage.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyFromMessage extends InstrumentFromMessage
 {
     /* (non-Javadoc)

@@ -31,8 +31,8 @@ import org.marketcetera.module.ExpectedFailure;
  * Tests {@link AbstractMarketDataProvider}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: AbstractMarketDataProviderTest.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class AbstractMarketDataProviderTest
 {

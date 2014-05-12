@@ -19,7 +19,7 @@ import org.marketcetera.util.file.CopyCharsUtils;
  *
  * @author anshul@marketcetera.com
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: MainTest.java 16841 2014-02-20 19:59:04Z colin $
+ * @version $Id: MainTest.java 16899 2014-05-11 16:03:04Z colin $
  * @since 1.0.0
  */
 public class MainTest
@@ -241,8 +241,8 @@ public class MainTest
      *
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MainTest.java 16841 2014-02-20 19:59:04Z colin $
-     * @since $Release$
+     * @version $Id: MainTest.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
     public class MockMain
             extends OrderLoaderMain

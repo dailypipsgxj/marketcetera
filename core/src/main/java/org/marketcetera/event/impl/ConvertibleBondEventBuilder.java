@@ -11,10 +11,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Builds events for convertible bond events.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: ConvertibleBondEventBuilder.java 16598 2013-06-25 13:27:58Z colin $
- * @since $Release$
+ * @version $Id: ConvertibleBondEventBuilder.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondEventBuilder.java 16901 2014-05-11 16:14:11Z colin $")
 public interface ConvertibleBondEventBuilder<Clazz>
 {
     /**

@@ -11,11 +11,11 @@ import org.springframework.context.Lifecycle;
  * Provides a management interface for a market data provider.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: MarketDataProviderMBean.java 16422 2013-01-03 19:43:24Z colin $
- * @since $Release$
+ * @version $Id: MarketDataProviderMBean.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @MXBean(true)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataProviderMBean.java 16901 2014-05-11 16:14:11Z colin $")
 public interface MarketDataProviderMBean
         extends Lifecycle
 {

@@ -70,10 +70,10 @@ import com.google.common.collect.Maps;
  * Market data view.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $
+ * @version $Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $
  * @since 1.0.0
  */
-@ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")
+@ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")
 public final class MarketDataView
         extends ViewPart
         implements IMSymbolListener,IColumnProvider
@@ -463,10 +463,10 @@ public final class MarketDataView
      * Handles column sorting.
      * 
      * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
-     * @version $Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $
+     * @version $Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $
      * @since 1.0.0
      */
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")//$NON-NLS-1$
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")//$NON-NLS-1$
     private static class MarketDataItemComparator extends ViewerComparator {
 
         private int mIndex = -1;
@@ -619,10 +619,10 @@ public final class MarketDataView
      * Provides support for editing symbols in-line
      * 
      * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
-     * @version $Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $
+     * @version $Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $
      * @since 1.0.0
      */
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")
     private final class SymbolEditingSupport
             extends EditingSupport
     {
@@ -680,10 +680,10 @@ public final class MarketDataView
      * Handles the delete command for this view.
      * 
      * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
-     * @version $Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $
+     * @version $Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $
      * @since 1.0.0
      */
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")
     public static final class DeleteCommandHandler extends AbstractHandler
             implements IHandler {
 
@@ -711,7 +711,7 @@ public final class MarketDataView
         }
     }
 
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")
     public static final class BuyCommandHandler extends OrderCommandHandler
             implements IHandler {
         @Override
@@ -721,7 +721,7 @@ public final class MarketDataView
         }
     }
 
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")
     public static final class SellCommandHandler extends OrderCommandHandler
             implements IHandler {
         @Override
@@ -752,7 +752,7 @@ public final class MarketDataView
      * Handles the send order command for this view.
      * 
      */
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")
     public static class OrderCommandHandler extends AbstractHandler implements
             IHandler {
         private Side side;
@@ -826,10 +826,10 @@ public final class MarketDataView
      * Handles the copy command for this view
      * 
      * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
-     * @version $Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $
+     * @version $Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $
      * @since 1.0.0
      */
-    @ClassVersion("$Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $")//$NON-NLS-1$
+    @ClassVersion("$Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $")//$NON-NLS-1$
     public static final class CopyCommandHandler extends AbstractHandler
             implements IHandler {
 
@@ -861,8 +861,8 @@ public final class MarketDataView
      *
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketDataView.java 16878 2014-04-14 22:55:48Z colin $
-     * @since $Release$
+     * @version $Id: MarketDataView.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
     private class AddInstrumentAgent
             implements Runnable

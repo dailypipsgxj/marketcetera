@@ -12,10 +12,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Used to communicate with a market data provider for a market data request.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: MarketDataRequestToken.java 16344 2012-11-01 20:24:40Z colin $
- * @since $Release$
+ * @version $Id: MarketDataRequestToken.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataRequestToken.java 16901 2014-05-11 16:14:11Z colin $")
 public interface MarketDataRequestToken
         extends Serializable
 {

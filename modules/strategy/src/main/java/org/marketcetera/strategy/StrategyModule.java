@@ -66,10 +66,10 @@ import com.google.common.collect.Sets;
  * </table>
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $
+ * @version $Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $
  * @since 1.0.0
  */
-@ClassVersion("$Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $")
+@ClassVersion("$Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $")
 final class StrategyModule
         extends Module
         implements DataEmitter, DataFlowRequester, DataReceiver, ServicesProvider, StrategyMXBean, NotificationEmitter
@@ -1473,10 +1473,10 @@ final class StrategyModule
      * Request for data that comes from within strategy to strategy.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $
+     * @version $Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $
      * @since 1.0.0
      */
-    @ClassVersion("$Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $")
+    @ClassVersion("$Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $")
     private static class InternalRequest
     {
         /**
@@ -1497,10 +1497,10 @@ final class StrategyModule
      * Encapsulates a market data request.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $
-     * @since $Release$
+     * @version $Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $")
+    @ClassVersion("$Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $")
     private class RequestContainer
     {
         /* (non-Javadoc)
@@ -1626,10 +1626,10 @@ final class StrategyModule
      * Represents a request for a subscription to data this strategy can emit.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $
+     * @version $Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $
      * @since 1.0.0
      */
-    @ClassVersion("$Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $")
+    @ClassVersion("$Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $")
     private class DataRequester
             implements ISubscriber
     {
@@ -1718,10 +1718,10 @@ final class StrategyModule
      * Constructs a <code>Client</code> connection.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $
+     * @version $Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $
      * @since 2.1.0
      */
-    @ClassVersion("$Id: StrategyModule.java 16864 2014-03-20 19:39:48Z colin $")
+    @ClassVersion("$Id: StrategyModule.java 16899 2014-05-11 16:03:04Z colin $")
     static interface ClientFactory
     {
         /**

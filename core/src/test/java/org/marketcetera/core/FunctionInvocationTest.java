@@ -18,8 +18,8 @@ import com.google.common.collect.Lists;
  * Tests {@link FunctionInvocation}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: FunctionInvocationTest.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class FunctionInvocationTest
 {
@@ -82,8 +82,8 @@ public class FunctionInvocationTest
      * Represents a single test case.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: FunctionInvocationTest.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
     private static class TestSpec
     {

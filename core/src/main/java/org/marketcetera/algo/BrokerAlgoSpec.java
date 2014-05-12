@@ -18,12 +18,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Represents the template of a broker algorithm.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: BrokerAlgoSpec.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: BrokerAlgoSpec.java 16901 2014-05-11 16:14:11Z colin $")
 public class BrokerAlgoSpec
         implements Serializable, Comparable<BrokerAlgoSpec>
 {

@@ -9,10 +9,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Simple immutable data structure representing credentials.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: Credentials.java 16604 2013-06-26 14:49:42Z colin $
+ * @version $Id: Credentials.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.0.0
  */
-@ClassVersion("$Id: Credentials.java 16604 2013-06-26 14:49:42Z colin $")
+@ClassVersion("$Id: Credentials.java 16901 2014-05-11 16:14:11Z colin $")
 public class Credentials implements ICredentials {
 
     private final String mUsername;

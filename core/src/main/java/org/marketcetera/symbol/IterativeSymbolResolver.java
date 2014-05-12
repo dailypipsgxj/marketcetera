@@ -15,10 +15,10 @@ import com.google.common.collect.Lists;
  * Resolves symbols by managing a list of individual symbol resolvers.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: IterativeSymbolResolver.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id: SpringConfig.java 16663 2013-08-23 14:40:19Z colin $")
+@ClassVersion("$Id: IterativeSymbolResolver.java 16901 2014-05-11 16:14:11Z colin $")
 public class IterativeSymbolResolver
         implements SymbolResolverService, InitializingBean
 {

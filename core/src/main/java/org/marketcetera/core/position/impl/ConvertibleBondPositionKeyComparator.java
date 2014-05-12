@@ -9,10 +9,10 @@ import org.marketcetera.util.misc.ClassVersion;
 /**
  * Compares positions of <code>ConvertibleBond</code> instruments.
  *
- * @version $Id$
- * @since $Release$
+ * @version $Id: ConvertibleBondPositionKeyComparator.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondPositionKeyComparator.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondPositionKeyComparator
         extends InstrumentPositionKeyComparator<ConvertibleBond>
 {

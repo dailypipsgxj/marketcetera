@@ -26,7 +26,7 @@ import org.marketcetera.util.misc.ClassVersion;
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: Currency.java 16901 2014-05-11 16:14:11Z colin $")
 public class Currency extends Instrument implements Comparable<Currency>{
 
 	/**

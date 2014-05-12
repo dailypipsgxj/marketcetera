@@ -10,8 +10,8 @@ import javax.xml.bind.annotation.XmlAttribute;
  * Adapts a <code>Map&lt;String,String&gt;</code> to and from XML.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MapElements.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlAccessorType(XmlAccessType.NONE)
 public class MapElements

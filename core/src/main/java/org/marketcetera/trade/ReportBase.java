@@ -13,10 +13,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * meant to be used directly, use one of its sub-types instead.
  *
  * @author anshul@marketcetera.com
- * @version $Id: ReportBase.java 16888 2014-04-22 18:32:36Z colin $
+ * @version $Id: ReportBase.java 16899 2014-05-11 16:03:04Z colin $
  * @since 1.0.0
  */
-@ClassVersion("$Id: ReportBase.java 16888 2014-04-22 18:32:36Z colin $")
+@ClassVersion("$Id: ReportBase.java 16899 2014-05-11 16:03:04Z colin $")
 public interface ReportBase extends Serializable {
     /**
      * The client assigned orderID of the order that generated this report.
@@ -105,8 +105,8 @@ public interface ReportBase extends Serializable {
      * Compares two <code>ReportBase</code> objects.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: ReportBase.java 16888 2014-04-22 18:32:36Z colin $
-     * @since $Release$
+     * @version $Id: ReportBase.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
     public static enum ReportComparator
             implements Comparator<ReportBase>

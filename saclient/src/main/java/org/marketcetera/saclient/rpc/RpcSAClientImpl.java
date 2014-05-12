@@ -60,10 +60,10 @@ import com.googlecode.protobuf.pro.duplex.execute.ThreadPoolCallExecutor;
  * Provides an RPC implementation of {@link SAClient}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: RpcSAClientImpl.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: RpcSAClientImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class RpcSAClientImpl
         extends AbstractSAClient
 {
@@ -482,10 +482,10 @@ public class RpcSAClientImpl
      * <p>This class also manages reconnection, if necessary.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: RpcSAClientImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: RpcSAClientImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private class HeartbeatMonitor
             implements Runnable
     {

@@ -25,8 +25,8 @@ import com.google.common.collect.Sets;
  * Provides an implementation of <code>MarketDataServiceAdapter</code> for testing.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MockMarketDataServiceAdapter.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class MockMarketDataServiceAdapter
         implements MarketDataServiceAdapter
@@ -236,8 +236,8 @@ public class MockMarketDataServiceAdapter
      * Records requests to {@link MockMarketDataServiceAdapter#getSnapshot(Instrument, Content, String)}.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MockMarketDataServiceAdapter.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
     public static class SnapshotRequest
     {

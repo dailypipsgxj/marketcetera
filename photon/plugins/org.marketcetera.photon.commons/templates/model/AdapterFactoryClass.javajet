@@ -1,4 +1,4 @@
-<%@ jet package="org.eclipse.emf.codegen.ecore.templates.model" imports="java.util.* org.eclipse.emf.codegen.ecore.genmodel.*" class="AdapterFactoryClass" version="$Id: AdapterFactoryClass.javajet,v 1.13 2008/12/13 15:53:17 emerks Exp $" %>
+<%@ jet package="org.eclipse.emf.codegen.ecore.templates.model" imports="java.util.* org.eclipse.emf.codegen.ecore.genmodel.*" class="AdapterFactoryClass" version="$Id: AdapterFactoryClass.javajet 16901 2014-05-11 16:14:11Z colin $" %>
 <%
 /**
  * <copyright>
@@ -38,7 +38,7 @@ package <%=genPackage.getUtilitiesPackageName()%>;
  * @generated
  * @since 2.1.0
  */
-@<%=genModel.getImportedName("org.marketcetera.util.misc.ClassVersion")%>("$Id$")
+@<%=genModel.getImportedName("org.marketcetera.util.misc.ClassVersion")%>("$Id: AdapterFactoryClass.javajet 16901 2014-05-11 16:14:11Z colin $")
 public class <%=genPackage.getAdapterFactoryClassName()%> extends AdapterFactoryImpl
 {
 <%if (genModel.hasCopyrightField()) {%>

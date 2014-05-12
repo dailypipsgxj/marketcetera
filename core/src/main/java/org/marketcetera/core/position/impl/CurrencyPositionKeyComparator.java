@@ -10,7 +10,7 @@ import org.marketcetera.util.misc.ClassVersion;
  * A comparator for {@link org.marketcetera.trade.Currency} instruments.
  *
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: CurrencyPositionKeyComparator.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyPositionKeyComparator
         extends InstrumentPositionKeyComparator<Currency>
 {

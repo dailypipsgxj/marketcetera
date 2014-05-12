@@ -32,10 +32,10 @@ import com.google.inject.Inject;
  * Internal implementation of {@link IMarketDataManager}.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: MarketDataManager.java 16878 2014-04-14 22:55:48Z colin $
+ * @version $Id: MarketDataManager.java 16899 2014-05-11 16:03:04Z colin $
  * @since 1.0.0
  */
-@ClassVersion("$Id: MarketDataManager.java 16878 2014-04-14 22:55:48Z colin $")
+@ClassVersion("$Id: MarketDataManager.java 16899 2014-05-11 16:03:04Z colin $")
 public final class MarketDataManager
         implements IMarketDataManager,IMarketDataClientProvider,ServerStatusListener
 {
@@ -286,10 +286,10 @@ public final class MarketDataManager
      * Manages notifications for feed status subscribers.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketDataManager.java 16878 2014-04-14 22:55:48Z colin $
-     * @since $Release$
+     * @version $Id: MarketDataManager.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketDataManager.java 16878 2014-04-14 22:55:48Z colin $")
+    @ClassVersion("$Id: MarketDataManager.java 16899 2014-05-11 16:03:04Z colin $")
     private class FeedStatusNotification
             implements IFeedStatusEvent
     {

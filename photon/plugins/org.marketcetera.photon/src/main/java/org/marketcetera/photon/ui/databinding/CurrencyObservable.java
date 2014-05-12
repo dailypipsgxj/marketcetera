@@ -16,7 +16,7 @@ import com.google.common.collect.ImmutableList;
  * currency components.
  *
  */
-@ClassVersion("$Id: CurrencyObservable.java 16492 2013-03-08 09:21:37Z sameer.patil $")
+@ClassVersion("$Id: CurrencyObservable.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyObservable
         extends CompoundObservableManager<ITypedObservableValue<Instrument>>
 {

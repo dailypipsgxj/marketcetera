@@ -22,11 +22,11 @@ import com.google.common.collect.Sets;
  * This class is thread safe.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: LogoutService.java 16604 2013-06-26 14:49:42Z colin $
+ * @version $Id: LogoutService.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.0.0
  */
 @ThreadSafe
-@ClassVersion("$Id: LogoutService.java 16604 2013-06-26 14:49:42Z colin $")
+@ClassVersion("$Id: LogoutService.java 16901 2014-05-11 16:14:11Z colin $")
 public class LogoutService implements ILogoutService {
     @GuardedBy("mLogoutRunnables")
     private final Set<Runnable> mLogoutRunnables = Sets.newHashSet();

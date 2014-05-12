@@ -74,7 +74,7 @@ import com.ibm.icu.text.NumberFormat;
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
  * @since 0.6.0
  */
-@ClassVersion("$Id: OrderTicketView.java 16752 2013-11-14 02:54:13Z colin $")
+@ClassVersion("$Id: OrderTicketView.java 16899 2014-05-11 16:03:04Z colin $")
 public abstract class OrderTicketView<M extends OrderTicketModel, T extends IOrderTicket>
         extends XSWTView<T> {
 
@@ -1037,10 +1037,10 @@ public abstract class OrderTicketView<M extends OrderTicketModel, T extends IOrd
      *
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: OrderTicketView.java 16752 2013-11-14 02:54:13Z colin $
-     * @since $Release$
+     * @version $Id: OrderTicketView.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: OrderTicketView.java 16752 2013-11-14 02:54:13Z colin $")
+    @ClassVersion("$Id: OrderTicketView.java 16899 2014-05-11 16:03:04Z colin $")
     public final static class AlgoLabelProvider
             extends LabelProvider
     {

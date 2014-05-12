@@ -1,4 +1,4 @@
-<%@ jet package="org.eclipse.emf.codegen.ecore.templates.model" imports="java.util.* org.eclipse.emf.codegen.ecore.genmodel.*" class="SwitchClass" version="$Id: SwitchClass.javajet,v 1.22 2008/06/04 21:42:39 emerks Exp $" %>
+<%@ jet package="org.eclipse.emf.codegen.ecore.templates.model" imports="java.util.* org.eclipse.emf.codegen.ecore.genmodel.*" class="SwitchClass" version="$Id: SwitchClass.javajet 16901 2014-05-11 16:14:11Z colin $" %>
 <%
 /**
  * <copyright>
@@ -67,7 +67,7 @@ if (genModel.useGenerics())
  * @generated
  * @since 2.1.0
  */
-@<%=genModel.getImportedName("org.marketcetera.util.misc.ClassVersion")%>("$Id$")
+@<%=genModel.getImportedName("org.marketcetera.util.misc.ClassVersion")%>("$Id: SwitchClass.javajet 16901 2014-05-11 16:14:11Z colin $")
 public class <%=genPackage.getSwitchClassName()%><%=templateParameters%>
 {
 <%if (genModel.hasCopyrightField()) {%>

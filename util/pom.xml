@@ -3,7 +3,7 @@
 <!--
   - Author: tlerios@marketcetera.com
   - Since: 0.5.0
-  - Version: $Id: pom.xml 16876 2014-04-12 18:31:18Z colin $
+  - Version: $Id: pom.xml 16907 2014-05-12 01:09:05Z colin $
   - $License$
   -->
 
@@ -18,7 +18,7 @@
   <parent>
       <groupId>org.marketcetera</groupId>
       <artifactId>public-parent</artifactId>
-      <version>2.4.0</version>
+      <version>2.4.1</version>
   </parent>
   <artifactId>util</artifactId>
   <packaging>jar</packaging>

@@ -15,12 +15,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Indicates the desired page for a multi-record request.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: PageRequest.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="pageRequest")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: PageRequest.java 16901 2014-05-11 16:14:11Z colin $")
 public class PageRequest
         implements Serializable
 {

@@ -21,12 +21,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Represents a broker algorithm bound with user-supplied values.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: BrokerAlgo.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: BrokerAlgo.java 16901 2014-05-11 16:14:11Z colin $")
 public class BrokerAlgo
         implements Serializable
 {

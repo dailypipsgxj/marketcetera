@@ -24,10 +24,10 @@ import com.google.common.collect.Maps;
  * Caches market data for a given instrument.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketdataCacheElement.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketdataCacheElement.java 16901 2014-05-11 16:14:11Z colin $")
 public class MarketdataCacheElement
 {
     /**

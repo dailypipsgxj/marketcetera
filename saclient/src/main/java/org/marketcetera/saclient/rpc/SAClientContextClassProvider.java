@@ -11,10 +11,10 @@ import org.marketcetera.util.ws.ContextClassProvider;
  * Provides context classes for marshalling and unmarshalling SAClient messages.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: SAClientContextClassProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: SAClientContextClassProvider.java 16901 2014-05-11 16:14:11Z colin $")
 public class SAClientContextClassProvider
         implements ContextClassProvider
 {

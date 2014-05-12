@@ -43,11 +43,11 @@ import org.marketcetera.util.ws.wrappers.RemoteException;
  * Provides access to Market Data Nexus services.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketDataServiceClientImpl.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataServiceClientImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class MarketDataServiceClientImpl
         implements MarketDataServiceClient
 {
@@ -467,10 +467,10 @@ public class MarketDataServiceClientImpl
      * Subscribes to service status changes.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataServiceClientImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataServiceClientImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private static class ServerStatusSubscriber
            implements ISubscriber
     {

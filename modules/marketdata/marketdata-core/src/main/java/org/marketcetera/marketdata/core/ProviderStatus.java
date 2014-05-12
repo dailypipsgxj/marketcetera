@@ -8,10 +8,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Indicates the status of a market data provider feed.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: FeedStatus.java 16325 2012-10-25 23:13:12Z colin $
- * @since $Release$
+ * @version $Id: ProviderStatus.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ProviderStatus.java 16901 2014-05-11 16:14:11Z colin $")
 public enum ProviderStatus
 {
     /**

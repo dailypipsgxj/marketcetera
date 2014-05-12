@@ -19,13 +19,13 @@ import org.marketcetera.util.misc.ClassVersion;
 /**
  * Represents a Convertible Security instrument.
  *
- * @version $Id: ConvertibleSecurityImpl.java 16327 2012-10-26 21:14:08Z colin $
- * @since $Release$
+ * @version $Id: ConvertibleBond.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
 @XmlRootElement(name="convertibleBond")
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBond.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBond
         extends Instrument
 {

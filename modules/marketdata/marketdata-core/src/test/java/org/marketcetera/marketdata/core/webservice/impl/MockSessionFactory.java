@@ -10,8 +10,8 @@ import org.marketcetera.util.ws.tags.SessionId;
  * Creates {@link MockSession} objects.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MockSessionFactory.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class MockSessionFactory
         implements SessionFactory<MockSession>

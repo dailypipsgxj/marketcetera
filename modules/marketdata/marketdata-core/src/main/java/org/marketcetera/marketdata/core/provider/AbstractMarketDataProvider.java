@@ -51,11 +51,11 @@ import com.google.common.collect.Multimap;
  * <p>To create a market data provider, extend this class.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: AbstractMarketDataProvider.java 16483 2013-02-10 20:11:01Z colin $
- * @since $Release$
+ * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
 public abstract class AbstractMarketDataProvider
         implements MarketDataProvider,MarketDataCache
 {
@@ -508,8 +508,8 @@ public abstract class AbstractMarketDataProvider
      * Represents a single market data request item.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: AbstractMarketDataProvider.java 16483 2013-02-10 20:11:01Z colin $
-     * @since $Release$
+     * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
     @Immutable
     private static class MarketDataRequestAtomImpl
@@ -631,10 +631,10 @@ public abstract class AbstractMarketDataProvider
      * Processes events returned by the provider and publishes them to interested subscribers.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: AbstractMarketDataProvider.java 16483 2013-02-10 20:11:01Z colin $
-     * @since $Release$
+     * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
     private class EventNotifier
             implements Runnable, Lifecycle
     {
@@ -767,10 +767,10 @@ public abstract class AbstractMarketDataProvider
      * Represents an event notification to be published.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: AbstractMarketDataProvider.java 16483 2013-02-10 20:11:01Z colin $
-     * @since $Release$
+     * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
     private static class EventNotification
     {
         /* (non-Javadoc)

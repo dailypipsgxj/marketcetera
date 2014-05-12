@@ -30,7 +30,7 @@ import org.marketcetera.photon.commons.ui.databinding.DataBindingUtils;
  * in--and graphically interact with--currency orders.
  * 
  */
-@ClassVersion("$Id: CurrencyOrderTicketView.java 16492 2013-03-08 09:21:37Z sameer.patil $")
+@ClassVersion("$Id: CurrencyOrderTicketView.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyOrderTicketView extends
         OrderTicketView<CurrencyOrderTicketModel, ICurrencyOrderTicket> {
 

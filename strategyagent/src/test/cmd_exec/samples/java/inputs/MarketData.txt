@@ -1,7 +1,7 @@
 #
 # author:anshul@marketcetera.com
 # since 2.0.0
-# version: $Id: MarketData.txt 16154 2012-07-14 16:34:05Z colin $
+# version: $Id: MarketData.txt 16901 2014-05-11 16:14:11Z colin $
 #
 #
 # Create the Market Data strategy

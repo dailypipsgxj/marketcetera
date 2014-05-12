@@ -12,10 +12,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Implements extraction of a currency instrument from a row.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: CurrencyFromRow.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: CurrencyFromRow.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyFromRow
         extends InstrumentFromRow
 {

@@ -12,10 +12,10 @@ import com.google.common.collect.Maps;
  * Contains instrument status values.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: InstrumentStatus.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: InstrumentStatus.java 16901 2014-05-11 16:14:11Z colin $")
 public enum InstrumentStatus
 {
     OPEN_REGULAR(1),

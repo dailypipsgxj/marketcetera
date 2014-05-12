@@ -11,7 +11,7 @@ import org.marketcetera.util.misc.ClassVersion;
  * 
  * 
  */
-@ClassVersion("$Id: CurrencyToMemento.java 16460 2013-01-21 21:55:10Z colin $")
+@ClassVersion("$Id: CurrencyToMemento.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyToMemento extends InstrumentToMemento<Currency> {
 
     static final String CURRENCY_TAG = "currency"; //$NON-NLS-1$

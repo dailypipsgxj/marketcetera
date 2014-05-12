@@ -24,12 +24,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Represents a bound {@link BrokerAlgoTagSpec} and value.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: BrokerAlgoTag.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: BrokerAlgoTag.java 16901 2014-05-11 16:14:11Z colin $")
 public class BrokerAlgoTag
         implements Serializable, Comparable<BrokerAlgoTag>
 {

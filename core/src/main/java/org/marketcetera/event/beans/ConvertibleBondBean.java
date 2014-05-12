@@ -18,12 +18,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Contains the attributes of a convertible bond.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: ConvertibleBondBean.java 16598 2013-06-25 13:27:58Z colin $
- * @since $Release$
+ * @version $Id: ConvertibleBondBean.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="convertibleBond")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondBean.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondBean
         implements Serializable
 {

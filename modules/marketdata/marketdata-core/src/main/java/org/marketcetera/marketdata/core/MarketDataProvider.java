@@ -15,10 +15,10 @@ import org.springframework.context.Lifecycle;
  * Provides market data from a specific source.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: MarketDataProvider.java 16422 2013-01-03 19:43:24Z colin $
- * @since $Release$
+ * @version $Id: MarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
 public interface MarketDataProvider
         extends MarketDataProviderMBean,MarketDataCache
 {

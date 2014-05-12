@@ -11,11 +11,11 @@ import org.marketcetera.util.ws.ContextClassProvider;
  * Provides context classes for trade objects.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: TradeContextClassProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @Immutable
-@ClassVersion("$Id$")
+@ClassVersion("$Id: TradeContextClassProvider.java 16901 2014-05-11 16:14:11Z colin $")
 public class TradeContextClassProvider
         implements ContextClassProvider
 {

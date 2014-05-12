@@ -10,10 +10,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * The internationalization constants used by this package.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: Messages.java 16604 2013-06-26 14:49:42Z colin $
+ * @version $Id: Messages.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.0.0
  */
-@ClassVersion("$Id: Messages.java 16604 2013-06-26 14:49:42Z colin $")
+@ClassVersion("$Id: Messages.java 16901 2014-05-11 16:14:11Z colin $")
 final class Messages {
     
     static I18NMessage0P LOGOUT_SERVICE_UNHANDLED_EXCEPTION;

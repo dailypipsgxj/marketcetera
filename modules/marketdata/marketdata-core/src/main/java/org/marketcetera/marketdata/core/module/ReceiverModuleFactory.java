@@ -13,10 +13,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Creates {@link ReceiverModule} modules.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ReceiverModuleFactory.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ReceiverModuleFactory.java 16901 2014-05-11 16:14:11Z colin $")
 public class ReceiverModuleFactory
         extends ModuleFactory
 {

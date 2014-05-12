@@ -11,10 +11,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * operation} using the credentials provided by this service.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: ICredentialsService.java 16854 2014-03-12 01:54:42Z colin $
+ * @version $Id: ICredentialsService.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.0.0
  */
-@ClassVersion("$Id: ICredentialsService.java 16854 2014-03-12 01:54:42Z colin $")
+@ClassVersion("$Id: ICredentialsService.java 16901 2014-05-11 16:14:11Z colin $")
 public interface ICredentialsService
 {
     /**

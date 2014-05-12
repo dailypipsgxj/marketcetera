@@ -14,10 +14,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Resolves symbols according to patterns.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: PatternSymbolResolver.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id: ServiceImpl.java 16661 2013-08-22 17:51:57Z colin $")
+@ClassVersion("$Id: PatternSymbolResolver.java 16901 2014-05-11 16:14:11Z colin $")
 public class PatternSymbolResolver
         implements SymbolResolver
 {

@@ -56,10 +56,10 @@ import com.google.protobuf.ServiceException;
  * Provides server-side RPC services for <code>SAClient</code> connections.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: SAClientRpcService.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: SAClientRpcService.java 16901 2014-05-11 16:14:11Z colin $")
 public class SAClientRpcService<SessionClazz>
         implements RpcServiceSpec<SessionClazz>,RpcSAClientService.BlockingInterface
 {

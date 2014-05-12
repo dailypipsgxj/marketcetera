@@ -18,10 +18,10 @@ import com.google.common.collect.Lists;
  * <p>This class is useful when parsing function invocations like <code>search(1,2,3)</code>.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: FunctionInvocation.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: FunctionInvocation.java 16901 2014-05-11 16:14:11Z colin $")
 public class FunctionInvocation
 {
     /**

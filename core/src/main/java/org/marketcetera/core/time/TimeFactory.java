@@ -10,10 +10,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Creates time representation objects.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: TimeFactory.java 83355 2013-06-26 18:21:12Z colin $
- * @since $Release$
+ * @version $Id: TimeFactory.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: TimeFactory.java 16901 2014-05-11 16:14:11Z colin $")
 public interface TimeFactory
         extends Factory<DateTime>
 {

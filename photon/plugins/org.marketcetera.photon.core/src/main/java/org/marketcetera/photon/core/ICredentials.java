@@ -8,10 +8,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * An object that represents credentials.
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
- * @version $Id: ICredentials.java 16604 2013-06-26 14:49:42Z colin $
+ * @version $Id: ICredentials.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.0.0
  */
-@ClassVersion("$Id: ICredentials.java 16604 2013-06-26 14:49:42Z colin $")
+@ClassVersion("$Id: ICredentials.java 16901 2014-05-11 16:14:11Z colin $")
 public interface ICredentials {
 
     /**

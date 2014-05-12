@@ -12,10 +12,10 @@ import com.google.common.collect.Maps;
  * Indicates the market status.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketStatus.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketStatus.java 16901 2014-05-11 16:14:11Z colin $")
 public enum MarketStatus
 {
     OPEN_REGULAR(1),

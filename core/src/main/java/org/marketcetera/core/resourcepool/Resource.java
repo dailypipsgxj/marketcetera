@@ -12,10 +12,10 @@ import org.springframework.context.Lifecycle;
  * to guide the allocation of resources in the associated {@link ResourcePool}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: Resource.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: Resource.java 16901 2014-05-11 16:14:11Z colin $")
 public interface Resource<ResourceAllocationHintClazz>
         extends Lifecycle
 {

@@ -21,13 +21,13 @@ import org.marketcetera.util.misc.ClassVersion;
 /**
  * Provides a ConvertibleBond implementation of {@link TradeEvent}.
  *
- * @version $Id: ConvertibleBondTradeEventImpl.java 16598 2013-06-25 13:27:58Z colin $
+ * @version $Id: ConvertibleBondTradeEventImpl.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.1.0
  */
 @ThreadSafe
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="convertibleBondTrade")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondTradeEventImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondTradeEventImpl
         extends AbstractTradeEventImpl
         implements ConvertibleBondEvent

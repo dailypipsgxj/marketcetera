@@ -24,11 +24,11 @@ import org.marketcetera.util.misc.ClassVersion;
  * called.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ImbalanceEventBuilder.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @NotThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ImbalanceEventBuilder.java 16901 2014-05-11 16:14:11Z colin $")
 public abstract class ImbalanceEventBuilder
         implements EventBuilder<ImbalanceEvent>, OptionEventBuilder<ImbalanceEventBuilder>, FutureEventBuilder<ImbalanceEventBuilder>, CurrencyEventBuilder<ImbalanceEventBuilder>, ConvertibleBondEventBuilder<ImbalanceEventBuilder>
 {

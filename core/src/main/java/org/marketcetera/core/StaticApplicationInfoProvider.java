@@ -11,10 +11,10 @@ import org.springframework.context.ConfigurableApplicationContext;
  * Provides application info from well-known static locations.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: StaticApplicationInfoProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: StaticApplicationInfoProvider.java 16901 2014-05-11 16:14:11Z colin $")
 public class StaticApplicationInfoProvider
         implements ApplicationInfoProvider
 {

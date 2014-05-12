@@ -10,10 +10,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Indicates a market imbalance event has occurred.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $")
 public interface ImbalanceEvent
         extends Event, HasEventType, HasInstrument
 {

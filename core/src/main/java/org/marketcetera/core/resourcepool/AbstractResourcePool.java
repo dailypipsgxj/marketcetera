@@ -17,10 +17,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides access to a pool of similar resources.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: AbstractResourcePool.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: AbstractResourcePool.java 16901 2014-05-11 16:14:11Z colin $")
 public abstract class AbstractResourcePool<ResourceClazz extends Resource<ResourceAllocationHintClazz>,ResourceAllocationHintClazz>
         implements ResourcePool<ResourceClazz,ResourceAllocationHintClazz>
 {

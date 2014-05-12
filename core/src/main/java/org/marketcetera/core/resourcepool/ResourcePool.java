@@ -9,10 +9,10 @@ import org.springframework.context.Lifecycle;
  * Provides access to a group of similar resources.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ResourcePool.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ResourcePool.java 16901 2014-05-11 16:14:11Z colin $")
 public interface ResourcePool<ResourceClazz extends Resource<ResourceAllocationHintClazz>,ResourceAllocationHintClazz>
         extends Lifecycle
 {

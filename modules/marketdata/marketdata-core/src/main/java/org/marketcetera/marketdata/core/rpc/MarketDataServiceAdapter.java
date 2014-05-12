@@ -20,10 +20,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides an adapter interface between a market data client and the market data service provider.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketDataServiceAdapter.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataServiceAdapter.java 16901 2014-05-11 16:14:11Z colin $")
 public interface MarketDataServiceAdapter
 {
     /**

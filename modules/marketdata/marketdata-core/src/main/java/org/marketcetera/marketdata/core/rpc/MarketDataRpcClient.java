@@ -77,11 +77,11 @@ import com.googlecode.protobuf.pro.duplex.execute.ThreadPoolCallExecutor;
  * Provides market data services via RPC.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MarketDataRpcClient.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataRpcClient.java 16901 2014-05-11 16:14:11Z colin $")
 public class MarketDataRpcClient
         implements MarketDataServiceClient
 {
@@ -595,10 +595,10 @@ public class MarketDataRpcClient
      * <p>This class also manages reconnection, if necessary.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataRpcClient.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataRpcClient.java 16901 2014-05-11 16:14:11Z colin $")
     private class HeartbeatMonitor
             implements Runnable
     {

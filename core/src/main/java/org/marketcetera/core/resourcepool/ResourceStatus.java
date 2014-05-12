@@ -11,10 +11,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Indicates the status of a {@link ResourcePool} {@link Resource}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: ResourceStatus.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ResourceStatus.java 16901 2014-05-11 16:14:11Z colin $")
 public enum ResourceStatus
 {
     /**

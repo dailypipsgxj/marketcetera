@@ -9,7 +9,7 @@ import org.marketcetera.photon.ui.CurrencyPerspectiveFactory;
  * Controller for the currency order ticket.
  *
  */
-@ClassVersion("$Id: CurrencyOrderTicketController.java 16460 2013-01-21 21:55:10Z colin $")
+@ClassVersion("$Id: CurrencyOrderTicketController.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyOrderTicketController
         extends OrderTicketController<CurrencyOrderTicketModel>
 {

@@ -52,11 +52,11 @@ import com.google.common.collect.Sets;
  * Routes market data requests to available providers.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: MarketDataManagerImpl.java 16454 2013-01-17 01:55:01Z colin $
- * @since $Release$
+ * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class MarketDataManagerImpl
         implements MarketDataManager,MarketDataProviderRegistry
 {
@@ -354,11 +354,11 @@ public class MarketDataManagerImpl
      * Identifies a particular market data request.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketDataManagerImpl.java 16454 2013-01-17 01:55:01Z colin $
-     * @since $Release$
+     * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
     @Immutable
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private class Token
             implements MarketDataRequestToken
     {
@@ -450,10 +450,10 @@ public class MarketDataManagerImpl
      * Creates an interface between the newer {@link MarketDataProvider} and the older, module-based {@link MarketDataFeed}.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private class ModuleProvider
             extends AbstractMarketDataProvider
     {
@@ -572,10 +572,10 @@ public class MarketDataManagerImpl
          * Represents a market data request submitted to a proxy market data provider.
          *
          * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-         * @version $Id$
-         * @since $Release$
+         * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+         * @since 2.4.0
          */
-        @ClassVersion("$Id$")
+        @ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
         private class Request
                 implements ISubscriber
         {
@@ -670,10 +670,10 @@ public class MarketDataManagerImpl
          * Processes returned data for a proxied market data provider.
          *
          * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-         * @version $Id$
-         * @since $Release$
+         * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+         * @since 2.4.0
          */
-        @ClassVersion("$Id$")
+        @ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
         private class Processor
                 extends QueueProcessor<Pair<MarketDataRequestAtom,Event>>
         {
@@ -765,10 +765,10 @@ public class MarketDataManagerImpl
      * Compares two snapshots to determine the precedence.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private static class SnapshotComparator
             implements Comparator<Pair<FeedType,Event>>
     {
@@ -799,10 +799,10 @@ public class MarketDataManagerImpl
      * Compares two providers to determine which is the preferred.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id$
-     * @since $Release$
+     * @version $Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id$")
+    @ClassVersion("$Id: MarketDataManagerImpl.java 16901 2014-05-11 16:14:11Z colin $")
     private static class ProviderComparator
             implements Comparator<MarketDataProvider>
     {

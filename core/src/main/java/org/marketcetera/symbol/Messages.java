@@ -11,10 +11,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides messages for this package.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: Messages.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id: SpringConfig.java 16663 2013-08-23 14:40:19Z colin $")
+@ClassVersion("$Id: Messages.java 16901 2014-05-11 16:14:11Z colin $")
 public interface Messages
 {
     /**

@@ -17,13 +17,13 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides an Equity implementation of {@link ImbalanceEvent}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: EquityImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="equityImbalance")
-@ClassVersion("$Id: EquityMarketstatEventImpl.java 16854 2014-03-12 01:54:42Z colin $")
+@ClassVersion("$Id: EquityImbalanceEvent.java 16901 2014-05-11 16:14:11Z colin $")
 public class EquityImbalanceEvent
         extends AbstractImbalanceEvent
         implements EquityEvent

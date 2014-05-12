@@ -9,10 +9,10 @@ import org.marketcetera.util.misc.ClassVersion;
 /**
  * Provides messages for the <code>marketdata</code> packages.
  *
- * @version $Id: Messages.java 82324 2012-04-09 20:56:08Z colin $
- * @since $Release$
+ * @version $Id: Messages.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: Messages.java 16901 2014-05-11 16:14:11Z colin $")
 public interface Messages
 {
     /**

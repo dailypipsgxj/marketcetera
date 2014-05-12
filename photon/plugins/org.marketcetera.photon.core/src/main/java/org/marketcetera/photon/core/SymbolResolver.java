@@ -11,10 +11,10 @@ import org.marketcetera.util.misc.ClassVersion;
  * Provides symbol resolution services.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: SymbolResolver.java 16866 2014-03-21 15:20:08Z colin $
- * @since $Release$
+ * @version $Id: SymbolResolver.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id: SymbolResolver.java 16866 2014-03-21 15:20:08Z colin $")
+@ClassVersion("$Id: SymbolResolver.java 16901 2014-05-11 16:14:11Z colin $")
 public class SymbolResolver
         implements ISymbolResolver
 {

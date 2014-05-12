@@ -23,7 +23,7 @@ import org.marketcetera.util.misc.ClassVersion;
 @ThreadSafe
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="currencyMarketstat")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: CurrencyMarketstatEventImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class CurrencyMarketstatEventImpl
         extends AbstractMarketstatEventImpl
         implements CurrencyEvent

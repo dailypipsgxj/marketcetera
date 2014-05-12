@@ -30,7 +30,7 @@ import org.marketcetera.util.misc.ClassVersion;
  *          anshul $
  * @since 2.0.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: CreateOrderFromQuote.java 16901 2014-05-11 16:14:11Z colin $")
 public class CreateOrderFromQuote extends AbstractHandler {
 
     @Override

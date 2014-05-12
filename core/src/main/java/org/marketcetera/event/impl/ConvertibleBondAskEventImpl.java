@@ -21,12 +21,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Represents an ask event for a convertible bond.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: ConvertibleBondAskEventImpl.java 16598 2013-06-25 13:27:58Z colin $
- * @since $Release$
+ * @version $Id: ConvertibleBondAskEventImpl.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlRootElement(name="convertibleBondAsk")
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondAskEventImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondAskEventImpl
         extends AbstractQuoteEventImpl
         implements ConvertibleBondEvent, AskEvent

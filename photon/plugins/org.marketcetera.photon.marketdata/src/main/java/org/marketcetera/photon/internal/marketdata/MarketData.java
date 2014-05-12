@@ -61,10 +61,10 @@ import com.google.inject.Inject;
  * 
  * @author <a href="mailto:will@marketcetera.com">Will Horn</a>
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
+ * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
  * @since 1.5.0
  */
-@ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+@ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
 public class MarketData
         implements IMarketData
 {
@@ -244,10 +244,10 @@ public class MarketData
      * Manages a market data subscription and applies updates.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
-     * @since $Release$
+     * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+    @ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
     private class SubscriptionRefreshJob<MDType extends MDItem,MDMutableType extends MDType>
             implements Runnable
     {
@@ -366,10 +366,10 @@ public class MarketData
      * Uniquely identifies the contents of a market data request.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
-     * @since $Release$
+     * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+    @ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
     private static class MarketDataReferenceKey
     {
         /* (non-Javadoc)
@@ -423,10 +423,10 @@ public class MarketData
      * Contains the market data reference for an instrument-content tuple.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
-     * @since $Release$
+     * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+    @ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
     private class MarketDataDetails<MDType extends MDItem,MDMutableItemType extends MDType>
     {
         /* (non-Javadoc)
@@ -654,10 +654,10 @@ public class MarketData
      * Creates a market data type value.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
-     * @since $Release$
+     * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+    @ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
     private interface ItemFactory<MDType extends MDItem>
     {
         /**
@@ -671,10 +671,10 @@ public class MarketData
      * Updates an item with new events.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
-     * @since $Release$
+     * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+    @ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
     private interface ItemUpdater<MDType extends MDItem>
     {
         /**
@@ -696,10 +696,10 @@ public class MarketData
      * Updates depth-of-book items.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $
-     * @since $Release$
+     * @version $Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $
+     * @since 2.4.0
      */
-    @ClassVersion("$Id: MarketData.java 16893 2014-04-25 18:20:56Z colin $")
+    @ClassVersion("$Id: MarketData.java 16899 2014-05-11 16:03:04Z colin $")
     private abstract static class AbstractDepthUpdater
             implements ItemUpdater<MDDepthOfBookImpl>
     {

@@ -18,8 +18,8 @@ import org.marketcetera.util.log.SLF4JLoggerProxy;
  * Provides a test base that exercises test conditions in all FIX versions.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: NewFixVersionedTestCase.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @RunWith(Parameterized.class)
 public abstract class NewFixVersionedTestCase

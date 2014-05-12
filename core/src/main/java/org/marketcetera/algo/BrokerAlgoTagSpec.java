@@ -19,12 +19,12 @@ import org.marketcetera.util.misc.ClassVersion;
  * Describes a single tag of a broker algo.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: BrokerAlgoTagSpec.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
-@ClassVersion("$Id$")
+@ClassVersion("$Id: BrokerAlgoTagSpec.java 16901 2014-05-11 16:14:11Z colin $")
 public class BrokerAlgoTagSpec
         implements Serializable, Comparable<BrokerAlgoTagSpec>
 {

@@ -14,10 +14,10 @@ import quickfix.field.SecurityType;
 /**
  * Extracts a <code>ConvertibleBond</code> instrument from a FIX Message.
  * 
- * @version $Id$
- * @since $Release$
+ * @version $Id: ConvertibleBondFromMessage.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondFromMessage.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondFromMessage
         extends InstrumentFromMessage
 {

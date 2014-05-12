@@ -16,8 +16,8 @@ import quickfix.field.Symbol;
 /**
  * Prepares FIX messages with the fields necessary for <code>ConvertibleBond</code> instruments.
  *
- * @version $Id$
- * @since $Release$
+ * @version $Id: ConvertibleBondToMessage.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class ConvertibleBondToMessage
         extends InstrumentToMessage<ConvertibleBond>

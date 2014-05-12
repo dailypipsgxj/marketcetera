@@ -2,7 +2,7 @@
 #
 # Author: tlerios@marketcetera.com
 # Since: 0.5.0
-# Version: $Id: setSvnProperties.pl 16332 2012-10-30 21:00:28Z colin $
+# Version: $Id: setSvnProperties.pl 16907 2014-05-12 01:09:05Z colin $
 # $License$
 
 
@@ -80,7 +80,7 @@ my(%patternsCustom)=(
 	'public/source/photon/features/org.marketcetera.photon.feature'
 	  => ['plugin_customization.ini'],
 	'public/source/photon/plugins/org.marketcetera.core.tests'
-	  => ['core-2.4.0-tests.jar'],
+	  => ['core-2.4.1-tests.jar'],
 	'public/source/strategyagent/src/test/sample_data/modules/jars'
 	  => ['*.jar'],
 	'public/source/strategyagent/src/test/sample_data/modules/conf'

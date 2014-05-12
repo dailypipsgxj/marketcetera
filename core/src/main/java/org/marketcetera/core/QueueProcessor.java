@@ -16,11 +16,11 @@ import org.springframework.context.Lifecycle;
  * Provides a framework for processing data in a separate thread.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: QueueProcessor.java 83655 2013-12-06 01:42:01Z colin $
- * @since $Release$
+ * @version $Id: QueueProcessor.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id$")
+@ClassVersion("$Id: QueueProcessor.java 16901 2014-05-11 16:14:11Z colin $")
 public abstract class QueueProcessor<Clazz>
         implements Runnable, Lifecycle
 {

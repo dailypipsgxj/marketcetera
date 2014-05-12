@@ -1,4 +1,4 @@
-<%@ jet package="org.eclipse.emf.codegen.ecore.templates.model" imports="java.util.* org.eclipse.emf.codegen.ecore.genmodel.*" class="FactoryClass" version="$Id: FactoryClass.javajet,v 1.34 2009/02/23 19:28:08 davidms Exp $" %>
+<%@ jet package="org.eclipse.emf.codegen.ecore.templates.model" imports="java.util.* org.eclipse.emf.codegen.ecore.genmodel.*" class="FactoryClass" version="$Id: FactoryClass.javajet 16901 2014-05-11 16:14:11Z colin $" %>
 <%
 /**
  * <copyright>
@@ -55,7 +55,7 @@ package <%=genPackage.getClassPackageName()%>;
  * @since 2.1.0
  */
 <%}%>
-@<%=genModel.getImportedName("org.marketcetera.util.misc.ClassVersion")%>("$Id$")
+@<%=genModel.getImportedName("org.marketcetera.util.misc.ClassVersion")%>("$Id: FactoryClass.javajet 16901 2014-05-11 16:14:11Z colin $")
 <%if (isImplementation) {%>
 public class <%=genPackage.getFactoryClassName()%> extends <%=genModel.getImportedName("org.eclipse.emf.ecore.impl.EFactoryImpl")%><%if (!genModel.isSuppressInterfaces()) {%> implements <%=genPackage.getImportedFactoryInterfaceName()%><%}%>
 <%} else {%>

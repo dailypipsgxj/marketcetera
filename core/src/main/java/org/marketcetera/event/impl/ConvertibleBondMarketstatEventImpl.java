@@ -21,13 +21,13 @@ import org.marketcetera.util.misc.ClassVersion;
 /**
  * Provides a ConvertibleBond implementation of {@link MarketstatEvent}.
  *
- * @version $Id: ConvertibleBondMarketstatEventImpl.java 16598 2013-06-25 13:27:58Z colin $
+ * @version $Id: ConvertibleBondMarketstatEventImpl.java 16901 2014-05-11 16:14:11Z colin $
  * @since 2.1.0
  */
 @ThreadSafe
 @XmlAccessorType(XmlAccessType.NONE)
 @XmlRootElement(name="convertibleBondMarketstat")
-@ClassVersion("$Id$")
+@ClassVersion("$Id: ConvertibleBondMarketstatEventImpl.java 16901 2014-05-11 16:14:11Z colin $")
 public class ConvertibleBondMarketstatEventImpl
         extends AbstractMarketstatEventImpl
         implements ConvertibleBondEvent

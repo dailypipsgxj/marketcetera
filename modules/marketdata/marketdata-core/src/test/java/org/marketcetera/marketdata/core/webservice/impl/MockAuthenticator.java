@@ -10,8 +10,8 @@ import org.marketcetera.util.ws.stateless.StatelessClientContext;
  * Provides authentication services.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id$
- * @since $Release$
+ * @version $Id: MockAuthenticator.java 16901 2014-05-11 16:14:11Z colin $
+ * @since 2.4.0
  */
 public class MockAuthenticator
         implements Authenticator
