@@ -2,7 +2,15 @@ package org.marketcetera.marketdata.bogus;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.marketcetera.marketdata.Capability.*;
+import static org.marketcetera.marketdata.Capability.DIVIDEND;
+import static org.marketcetera.marketdata.Capability.EVENT_BOUNDARY;
+import static org.marketcetera.marketdata.Capability.LATEST_TICK;
+import static org.marketcetera.marketdata.Capability.LEVEL_2;
+import static org.marketcetera.marketdata.Capability.MARKET_STAT;
+import static org.marketcetera.marketdata.Capability.OPEN_BOOK;
+import static org.marketcetera.marketdata.Capability.TOP_OF_BOOK;
+import static org.marketcetera.marketdata.Capability.TOTAL_VIEW;
+import static org.marketcetera.marketdata.Capability.UNKNOWN;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,7 +21,11 @@ import java.util.concurrent.Callable;
 
 import org.junit.Test;
 import org.marketcetera.event.HasInstrument;
-import org.marketcetera.marketdata.*;
+import org.marketcetera.marketdata.Capability;
+import org.marketcetera.marketdata.Content;
+import org.marketcetera.marketdata.MarketDataFeedTestBase;
+import org.marketcetera.marketdata.MarketDataModuleTestBase;
+import org.marketcetera.marketdata.MarketDataRequestBuilder;
 import org.marketcetera.module.DataFlowID;
 import org.marketcetera.module.DataRequest;
 import org.marketcetera.module.ModuleException;
@@ -27,7 +39,7 @@ import org.marketcetera.module.SinkDataListener;
  * Tests {@link BogusFeedModule}.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: BogusFeedModuleTest.java 16154 2012-07-14 16:34:05Z colin $
+ * @version $Id: BogusFeedModuleTest.java 16912 2014-05-16 23:35:10Z colin $
  * @since 1.0.0
  */
 public class BogusFeedModuleTest
@@ -145,7 +157,7 @@ public class BogusFeedModuleTest
     @Override
     protected Capability[] getExpectedCapabilities()
     {
-        return new Capability[] { TOP_OF_BOOK,LEVEL_2,OPEN_BOOK,TOTAL_VIEW,LATEST_TICK,MARKET_STAT,DIVIDEND };
+        return new Capability[] { TOP_OF_BOOK,LEVEL_2,OPEN_BOOK,TOTAL_VIEW,LATEST_TICK,MARKET_STAT,DIVIDEND,EVENT_BOUNDARY };
     }
     /* (non-Javadoc)
      * @see org.marketcetera.marketdata.MarketDataModuleTestBase#getUnexpectedCapability()

@@ -41,6 +41,7 @@ import org.marketcetera.util.misc.ClassVersion;
 import org.springframework.context.Lifecycle;
 
 import com.google.common.collect.HashMultimap;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Multimap;
 
 /* $License$ */
@@ -51,11 +52,11 @@ import com.google.common.collect.Multimap;
  * <p>To create a market data provider, extend this class.
  *
  * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
- * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+ * @version $Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $
  * @since 2.4.0
  */
 @ThreadSafe
-@ClassVersion("$Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
+@ClassVersion("$Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $")
 public abstract class AbstractMarketDataProvider
         implements MarketDataProvider,MarketDataCache
 {
@@ -508,7 +509,7 @@ public abstract class AbstractMarketDataProvider
      * Represents a single market data request item.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+     * @version $Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $
      * @since 2.4.0
      */
     @Immutable
@@ -631,10 +632,10 @@ public abstract class AbstractMarketDataProvider
      * Processes events returned by the provider and publishes them to interested subscribers.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+     * @version $Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $
      * @since 2.4.0
      */
-    @ClassVersion("$Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
+    @ClassVersion("$Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $")
     private class EventNotifier
             implements Runnable, Lifecycle
     {
@@ -661,8 +662,8 @@ public abstract class AbstractMarketDataProvider
                                                  marketdataCache);
                         }
                         // we now have the market data cache object to use - give it the incoming events
-                        Collection<Event> outgoingEvents = marketdataCache.update(notification.content,
-                                                                                  events);
+                        Deque<Event> outgoingEvents = Lists.newLinkedList(marketdataCache.update(notification.content,
+                                                                                                 events));
                         // find subscribers to this instrument
                         requests.clear();
                         Lock requestLock = marketdataLock.readLock();
@@ -673,7 +674,29 @@ public abstract class AbstractMarketDataProvider
                         } finally {
                             requestLock.unlock();
                         }
-                        // TODO set event type: snapshot or update?
+                        boolean isSnapshot = false;
+                        // determine if we're dealing with a snapshot or update
+                        for(Event outgoingEvent : outgoingEvents) {
+                            if(outgoingEvent instanceof HasEventType) {
+                                HasEventType hasEventType = (HasEventType)outgoingEvent;
+                                if(hasEventType.getEventType() == EventType.SNAPSHOT_FINAL || hasEventType.getEventType() == EventType.SNAPSHOT_PART) {
+                                    isSnapshot = true;
+                                    break;
+                                }
+                            }
+                        }
+                        // now, set the appropriate flag
+                        HasEventType lastEvent = null;
+                        for(Event outgoingEvent : outgoingEvents) {
+                            if(outgoingEvent instanceof HasEventType) {
+                                HasEventType hasEventType = (HasEventType)outgoingEvent;
+                                lastEvent = hasEventType;
+                                hasEventType.setEventType(isSnapshot?EventType.SNAPSHOT_PART:EventType.UPDATE_PART);
+                            }
+                        }
+                        if(lastEvent != null) {
+                            lastEvent.setEventType(isSnapshot?EventType.SNAPSHOT_FINAL:EventType.UPDATE_FINAL);
+                        }
                         SLF4JLoggerProxy.trace("events.publishing",
                                                "Publishing {} to {}",
                                                outgoingEvents,
@@ -767,10 +790,10 @@ public abstract class AbstractMarketDataProvider
      * Represents an event notification to be published.
      *
      * @author <a href="mailto:colin@marketcetera.com">Colin DuPlantis</a>
-     * @version $Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $
+     * @version $Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $
      * @since 2.4.0
      */
-    @ClassVersion("$Id: AbstractMarketDataProvider.java 16901 2014-05-11 16:14:11Z colin $")
+    @ClassVersion("$Id: AbstractMarketDataProvider.java 16912 2014-05-16 23:35:10Z colin $")
     private static class EventNotification
     {
         /* (non-Javadoc)
